@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CardShuffler {
-
     private List<Card> pack = new ArrayList<> ();
 
     public void createCardDeck() {
@@ -14,7 +13,6 @@ public class CardShuffler {
             }
         }
     }
-
 
     public List<Card> getPack(){
         return pack;
